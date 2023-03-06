@@ -4,37 +4,56 @@
     
 }
 body{
-    background-color: rgb(128, 128, 128);
+ 
+    background-color: rgb(46, 45, 45);
     color: white;
 }
-
+.hide{
+  display: none;
+}
 #heading{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Titan One', cursive;
+  margin-left: 300px;
+  margin-right: 300px;
+    margin-top: 200px;
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr); */
 }
-h1{
-    color: wheat;
-    text-align: center;
-}
+
 #displayPic{
-    display: block;
+    display: none;
     border: 1px solid wheat;
     border-radius: 10%;
     margin: auto auto;
     
 }
 #welcome{
-    padding-top: 20px;
-    background-image: linear-gradient(rgb(46, 45, 45), gray);
+    
+    
+    /* background-image: linear-gradient(rgb(46, 45, 45), gray); */
     /* grid-column: 2/5; */
 }
 #canvas{
     display: block;
-    margin: 30px auto;
-    border: 1px solid wheat;
+    
+    /* border: 1px solid wheat; */
     border-radius: 10%;
-    width: 70px;
-    height: 50px;
-    margin-bottom: 30px;
+    width: 630px;
+    height: 450px;
+    
 }
+
+#hello{
+  font-size: 10rem;
+  color:  #decaf8;
+}
+#my-name{
+  font-size: 4rem;
+}
+#fullstack-developer{
+  font-size: 2rem;
+}
+
