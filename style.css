@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    font-family: 'Titan One', cursive;
 }
 body{
  
@@ -11,20 +11,19 @@ body{
 .hide{
   display: none;
 }
-#heading{
+.grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: 'Titan One', cursive;
+  
   margin-left: 300px;
   margin-right: 300px;
-    margin-top: 200px;
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr); */
+    
+}
+#heading{
+  margin-top: 200px;
 }
 
 #displayPic{
-    display: none;
     border: 1px solid wheat;
     border-radius: 10%;
     margin: auto auto;
@@ -55,5 +54,16 @@ body{
 }
 #fullstack-developer{
   font-size: 2rem;
+}
+.secondary-heading{
+  font-size: 2rem;
+  color: #33b9b3;
+}
+#about{
+  margin: 0 300px;
+}
+#about-me{
+  text-align: center;
+  margin: 50px 0;
 }
 
